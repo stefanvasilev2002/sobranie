@@ -1,0 +1,6 @@
+table,id,ime,prezime,datum_na_raganje,godina_pocetok,godina_kraj,izborna_edinica,partija
+pratenici,1,Aleksandar,Nikolovski,1980-05-15
+pratenici,2,Marija,Petkovska,1975-08-22
+parlamentarni_sostavi,1,Parlament 2023,,2023,2024
+pratenik_vo_parlamentaren_sostav,1,1,1,Skopje,Partija A
+pratenik_vo_parlamentaren_sostav,2,2,1,Bitola,Partija B

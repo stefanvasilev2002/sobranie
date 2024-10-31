@@ -1,0 +1,78 @@
+/* Chatbot.css */
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc; /* Light gray background */
+}
+
+.message-user {
+    justify-content: flex-end; /* Align user messages to the right */
+    text-align: right; /* Align text to the right */
+}
+
+.message-bot {
+    justify-content: flex-start; /* Align bot messages to the left */
+    text-align: left; /* Align text to the left */
+}
+
+.message-content {
+    max-width: 60%; /* Limit message width */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px 0; /* Margin for spacing */
+    display: inline-block; /* Allow for better alignment */
+    position: relative; /* For positioning if needed */
+}
+
+.bg-blue-200 {
+    background-color: #bfdbfe; /* Light blue background for bot */
+}
+
+.bg-green-200 {
+    background-color: #bbf7d0; /* Light green background for user */
+}
+
+.text-blue-800 {
+    color: #1e3a8a; /* Dark blue text */
+}
+
+.text-green-800 {
+    color: #065f46; /* Dark green text */
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.transition {
+    transition: all 0.2s ease;
+}
+
+.hover\:bg-red-600:hover {
+    background-color: #c53030; /* Darker red on hover */
+}
+
+/* Additional styles for flex container to align messages */
+.message-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the container */
+}
+
+.message-container-user {
+    flex-direction: row-reverse; /* Reverse direction for user messages */
+}
+
+.message-container-bot {
+    flex-direction: row; /* Normal direction for bot messages */
+}
